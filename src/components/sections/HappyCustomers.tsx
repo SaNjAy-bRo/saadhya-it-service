@@ -122,7 +122,7 @@ export default function HappyCustomers() {
             <div className="text-center lg:text-left">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-primary hover:bg-primary-dark text-white font-extrabold text-xs sm:text-sm transition-all shadow-md"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-primary hover:bg-primary-dark text-white font-extrabold text-sm transition-all shadow-md"
               >
                 <span>See How We Work</span>
               </a>
@@ -149,7 +149,7 @@ export default function HappyCustomers() {
 
               {/* Overlay Statistics */}
               <div className="absolute -top-4 -left-4 bg-slate-950 text-white p-3.5 rounded-xl shadow-xl z-20 border border-white/10 animate-float">
-                <span className="block text-[9px] uppercase font-bold tracking-widest text-slate-400">
+                <span className="block text-[10px] uppercase font-bold tracking-widest text-slate-400">
                   Global Reach
                 </span>
                 <span className="block font-display font-extrabold text-base mt-0.5 text-secondary">

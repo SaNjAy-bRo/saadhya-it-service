@@ -48,7 +48,7 @@ export default function CTASection() {
           <h2 className="font-display font-black text-3xl sm:text-5xl text-white leading-tight">
             Contact us to secure your IT needs.
           </h2>
-          <p className="font-sans text-slate-300 text-xs sm:text-sm max-w-xl mx-auto leading-relaxed font-semibold">
+          <p className="font-sans text-slate-300 text-sm max-w-xl mx-auto leading-relaxed font-semibold">
             Let's collaborate and make an impact with our cross-discipline
             approach to design and development.
           </p>
@@ -78,10 +78,10 @@ export default function CTASection() {
                     <Mail className="w-4 h-4" />
                   </div>
                   <div>
-                    <span className="block text-[9px] font-extrabold text-slate-400 uppercase tracking-wider">Email Address</span>
+                    <span className="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Email Address</span>
                     <a
                       href="mailto:contact@saadyait.com"
-                      className="block text-xs sm:text-sm font-bold text-white hover:text-primary transition-colors mt-0.5"
+                      className="block text-sm font-bold text-white hover:text-primary transition-colors mt-0.5"
                     >
                       contact@saadyait.com
                     </a>
@@ -93,8 +93,8 @@ export default function CTASection() {
                     <MapPin className="w-4 h-4" />
                   </div>
                   <div>
-                    <span className="block text-[9px] font-extrabold text-slate-400 uppercase tracking-wider">Our Location</span>
-                    <span className="block text-xs sm:text-sm font-bold text-white mt-0.5">
+                    <span className="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Our Location</span>
+                    <span className="block text-sm font-bold text-white mt-0.5">
                       Global Office Delivery Network
                     </span>
                   </div>
@@ -126,7 +126,7 @@ export default function CTASection() {
                   <h4 className="font-display font-extrabold text-xl text-white">
                     Thank You!
                   </h4>
-                  <p className="font-sans text-slate-300 text-xs sm:text-sm max-w-sm">
+                  <p className="font-sans text-slate-300 text-sm max-w-sm">
                     Your request has been successfully recorded. One of our solution
                     engineers will contact you within 24 hours.
                   </p>
@@ -135,7 +135,7 @@ export default function CTASection() {
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div className="space-y-1">
-                      <label htmlFor="name" className="text-[10px] font-extrabold text-slate-300 uppercase">
+                      <label htmlFor="name" className="text-xs font-extrabold text-slate-300 uppercase">
                         Full Name
                       </label>
                       <input
@@ -145,12 +145,12 @@ export default function CTASection() {
                         required
                         value={formData.name}
                         onChange={handleChange}
-                        className="w-full bg-white/5 border border-slate-500 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl px-4 py-2.5 text-xs sm:text-sm text-white placeholder-slate-500 outline-none transition-all"
+                        className="w-full bg-white/5 border border-slate-500 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 outline-none transition-all"
                         placeholder="John Doe"
                       />
                     </div>
                     <div className="space-y-1">
-                      <label htmlFor="email" className="text-[10px] font-extrabold text-slate-300 uppercase">
+                      <label htmlFor="email" className="text-xs font-extrabold text-slate-300 uppercase">
                         Email Address
                       </label>
                       <input
@@ -160,14 +160,14 @@ export default function CTASection() {
                         required
                         value={formData.email}
                         onChange={handleChange}
-                        className="w-full bg-white/5 border border-slate-500 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl px-4 py-2.5 text-xs sm:text-sm text-white placeholder-slate-500 outline-none transition-all"
+                        className="w-full bg-white/5 border border-slate-500 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 outline-none transition-all"
                         placeholder="john@example.com"
                       />
                     </div>
                   </div>
 
                   <div className="space-y-1">
-                    <label htmlFor="subject" className="text-[10px] font-extrabold text-slate-300 uppercase">
+                    <label htmlFor="subject" className="text-xs font-extrabold text-slate-300 uppercase">
                       Subject
                     </label>
                     <input
@@ -177,13 +177,13 @@ export default function CTASection() {
                       required
                       value={formData.subject}
                       onChange={handleChange}
-                      className="w-full bg-white/5 border border-slate-500 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl px-4 py-2.5 text-xs sm:text-sm text-white placeholder-slate-500 outline-none transition-all"
+                      className="w-full bg-white/5 border border-slate-500 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 outline-none transition-all"
                       placeholder="e.g., Database Migration Project"
                     />
                   </div>
 
                   <div className="space-y-1">
-                    <label htmlFor="message" className="text-[10px] font-extrabold text-slate-300 uppercase">
+                    <label htmlFor="message" className="text-xs font-extrabold text-slate-300 uppercase">
                       Message Details
                     </label>
                     <textarea
@@ -193,14 +193,14 @@ export default function CTASection() {
                       required
                       value={formData.message}
                       onChange={handleChange}
-                      className="w-full bg-white/5 border border-slate-500 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl px-4 py-2.5 text-xs sm:text-sm text-white placeholder-slate-500 outline-none resize-none transition-all"
+                      className="w-full bg-white/5 border border-slate-500 focus:border-primary focus:ring-1 focus:ring-primary rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 outline-none resize-none transition-all"
                       placeholder="Describe your IT needs here..."
                     />
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-primary hover:bg-primary-dark text-white font-extrabold text-xs sm:text-sm transition-all shadow-md"
+                    className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-primary hover:bg-primary-dark text-white font-extrabold text-sm transition-all shadow-md"
                   >
                     <span>Send Message</span>
                     <Send className="w-3.5 h-3.5" />

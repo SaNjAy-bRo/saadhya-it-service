@@ -23,6 +23,7 @@ export default function Navbar() {
   }, []);
 
   const serviceLinks = [
+    { name: "AI Automation Service", href: "/services/ai-automation" },
     { name: "Software Outsourcing", href: "/services/software-outsourcing" },
     { name: "Enterprise Solutions", href: "/services/enterprise-solutions" },
     { name: "Maintenance Services", href: "/services/maintenance-services" },
@@ -31,7 +32,7 @@ export default function Navbar() {
   return (
     <header className="w-full z-50 transition-all duration-300">
       {/* Top Contact Row */}
-      <div className="w-full bg-[#0A0F1D] text-slate-300 text-xs py-2.5 px-4 sm:px-6 lg:px-8 border-b border-white/5 flex flex-wrap justify-between items-center gap-2">
+      <div className="w-full bg-[#0A0F1D] text-slate-300 text-[13px] py-2.5 px-4 sm:px-6 lg:px-8 border-b border-white/5 flex flex-wrap justify-between items-center gap-2">
         <div className="flex items-center gap-2">
           <Mail className="w-3.5 h-3.5 text-primary" />
           <a
@@ -76,13 +77,13 @@ export default function Navbar() {
           <nav className="hidden md:flex items-center gap-8">
             <Link
               href="/"
-              className="font-sans text-sm font-semibold text-slate-600 hover:text-primary transition-colors"
+              className="font-sans text-[15px] font-semibold text-slate-600 hover:text-primary transition-colors"
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="font-sans text-sm font-semibold text-slate-600 hover:text-primary transition-colors"
+              className="font-sans text-[15px] font-semibold text-slate-600 hover:text-primary transition-colors"
             >
               About
             </Link>
@@ -94,7 +95,7 @@ export default function Navbar() {
               onMouseLeave={() => setDropdownOpen(false)}
             >
               <button
-                className="inline-flex items-center gap-1 font-sans text-sm font-semibold text-slate-600 hover:text-primary transition-colors focus:outline-none py-2"
+                className="inline-flex items-center gap-1 font-sans text-[15px] font-semibold text-slate-600 hover:text-primary transition-colors focus:outline-none py-2"
                 onClick={() => setDropdownOpen(!dropdownOpen)}
               >
                 <span>Services</span>
@@ -109,7 +110,7 @@ export default function Navbar() {
                       <Link
                         key={item.name}
                         href={item.href}
-                        className="block px-4 py-2.5 text-xs sm:text-sm font-semibold text-slate-700 hover:bg-slate-50 hover:text-primary transition-all"
+                        className="block px-4 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50 hover:text-primary transition-all"
                       >
                         {item.name}
                       </Link>
@@ -121,13 +122,13 @@ export default function Navbar() {
 
             <Link
               href="/#solutions"
-              className="font-sans text-sm font-semibold text-slate-600 hover:text-primary transition-colors"
+              className="font-sans text-[15px] font-semibold text-slate-600 hover:text-primary transition-colors"
             >
               Solutions
             </Link>
             <Link
               href="/#testimonials"
-              className="font-sans text-sm font-semibold text-slate-600 hover:text-primary transition-colors"
+              className="font-sans text-[15px] font-semibold text-slate-600 hover:text-primary transition-colors"
             >
               Testimonials
             </Link>

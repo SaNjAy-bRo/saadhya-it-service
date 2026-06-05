@@ -63,7 +63,7 @@ export default function SoftwareOutsourcing() {
             <h1 className="font-display font-black text-3xl sm:text-5xl text-white">
               Software Outsourcing
             </h1>
-            <p className="font-sans text-slate-300 text-xs sm:text-sm max-w-lg mx-auto font-semibold">
+            <p className="font-sans text-slate-300 text-sm sm:text-base max-w-lg mx-auto font-semibold">
               Deploy top-tier specialized engineering talent dynamically, scaling down when projects conclude.
             </p>
           </div>
@@ -87,7 +87,7 @@ export default function SoftwareOutsourcing() {
                 </p>
                 
                 <div className="pt-2">
-                  <span className="inline-flex items-center gap-2 text-xs sm:text-sm font-extrabold text-primary">
+                  <span className="inline-flex items-center gap-2 text-sm font-extrabold text-primary">
                     <span>Connect with us for more details</span>
                     <ArrowRight className="w-4 h-4 animate-bounce" />
                   </span>
@@ -118,7 +118,7 @@ export default function SoftwareOutsourcing() {
               <h2 className="font-display font-black text-2xl sm:text-3xl text-slate-950">
                 Why Outsource with Saadya IT?
               </h2>
-              <p className="font-sans text-xs sm:text-sm text-slate-800 font-semibold max-w-lg mx-auto">
+              <p className="font-sans text-sm sm:text-base text-slate-800 font-semibold max-w-lg mx-auto">
                 Secure global capabilities with cost structures built to protect your startup or enterprise margins.
               </p>
             </div>
@@ -138,7 +138,7 @@ export default function SoftwareOutsourcing() {
                       <h3 className="font-display font-extrabold text-base sm:text-lg text-slate-950">
                         {item.title}
                       </h3>
-                      <p className="font-sans text-xs sm:text-sm text-slate-800 leading-relaxed font-semibold">
+                      <p className="font-sans text-sm text-slate-800 leading-relaxed font-semibold">
                         {item.desc}
                       </p>
                     </div>
@@ -156,7 +156,7 @@ export default function SoftwareOutsourcing() {
               <h2 className="font-display font-black text-2xl sm:text-3xl text-slate-950">
                 Our Outsourcing Process
               </h2>
-              <p className="font-sans text-xs sm:text-sm text-slate-800 font-semibold max-w-lg mx-auto">
+              <p className="font-sans text-sm sm:text-base text-slate-800 font-semibold max-w-lg mx-auto">
                 A structured, transparent onboarding timeline designed to deliver code without delays.
               </p>
             </div>
@@ -173,7 +173,7 @@ export default function SoftwareOutsourcing() {
                   <h3 className="font-display font-extrabold text-base text-slate-950 mt-2">
                     {item.title}
                   </h3>
-                  <p className="font-sans text-xs sm:text-sm text-slate-700 leading-relaxed mt-2 font-semibold">
+                  <p className="font-sans text-sm text-slate-700 leading-relaxed mt-2 font-semibold">
                     {item.desc}
                   </p>
                 </div>
@@ -196,7 +196,7 @@ export default function SoftwareOutsourcing() {
             <h2 className="font-display font-black text-2xl sm:text-3xl text-white">
               Accelerate your engineering capacity today
             </h2>
-            <p className="font-sans text-slate-300 text-xs sm:text-sm font-semibold max-w-md mx-auto">
+            <p className="font-sans text-slate-300 text-sm sm:text-base font-semibold max-w-md mx-auto">
               Ready to onboard pre-vetted developers? Request full CVs and engineer schedules within 24 hours.
             </p>
             <div className="pt-2">

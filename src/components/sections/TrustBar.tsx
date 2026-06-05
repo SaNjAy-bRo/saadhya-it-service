@@ -51,10 +51,10 @@ export default function TrustBar() {
                 <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
               </div>
               <div className="min-w-0">
-                <span className="block font-sans font-extrabold text-[11px] sm:text-xs lg:text-sm text-slate-950 truncate leading-none">
+                <span className="block font-sans font-extrabold text-sm lg:text-base text-slate-950 truncate leading-none">
                   {item.name}
                 </span>
-                <span className="block text-slate-500 text-[9px] sm:text-[10px] font-bold mt-0.5 sm:mt-1 truncate">
+                <span className="block text-slate-500 text-xs sm:text-xs font-bold mt-0.5 sm:mt-1 truncate">
                   {item.desc}
                 </span>
               </div>
@@ -86,7 +86,7 @@ export default function TrustBar() {
                       {card.title}
                     </h3>
 
-                    <p className="font-sans text-xs sm:text-sm text-slate-800 leading-relaxed font-semibold">
+                    <p className="font-sans text-sm text-slate-800 leading-relaxed font-semibold">
                       {card.description}
                     </p>
                   </div>

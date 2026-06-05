@@ -85,7 +85,7 @@ export default function ContactPage() {
                         <Mail className="w-5 h-5" />
                       </div>
                       <div>
-                        <span className="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Email Us</span>
+                        <span className="block text-xs font-extrabold text-slate-400 uppercase tracking-wider">Email Us</span>
                         <a
                           href="mailto:contact@saadyait.com"
                           className="block text-sm font-extrabold text-slate-950 hover:text-primary transition-colors"
@@ -100,7 +100,7 @@ export default function ContactPage() {
                         <MapPin className="w-5 h-5" />
                       </div>
                       <div>
-                        <span className="block text-[10px] font-extrabold text-slate-400 uppercase tracking-wider">Our Address</span>
+                        <span className="block text-xs font-extrabold text-slate-400 uppercase tracking-wider">Our Address</span>
                         <span className="block text-sm font-extrabold text-slate-950">
                           Global Office Network, India
                         </span>
@@ -141,7 +141,7 @@ export default function ContactPage() {
                     <form onSubmit={handleSubmit} className="space-y-4">
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div className="space-y-1">
-                          <label htmlFor="name" className="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">
+                          <label htmlFor="name" className="text-xs font-extrabold text-slate-500 uppercase tracking-wider">
                             Full Name
                           </label>
                           <input
@@ -156,7 +156,7 @@ export default function ContactPage() {
                           />
                         </div>
                         <div className="space-y-1">
-                          <label htmlFor="email" className="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">
+                          <label htmlFor="email" className="text-xs font-extrabold text-slate-500 uppercase tracking-wider">
                             Email Address
                           </label>
                           <input
@@ -173,7 +173,7 @@ export default function ContactPage() {
                       </div>
 
                       <div className="space-y-1">
-                        <label htmlFor="subject" className="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">
+                        <label htmlFor="subject" className="text-xs font-extrabold text-slate-500 uppercase tracking-wider">
                           Subject
                         </label>
                         <input
@@ -189,7 +189,7 @@ export default function ContactPage() {
                       </div>
 
                       <div className="space-y-1">
-                        <label htmlFor="message" className="text-[10px] font-extrabold text-slate-500 uppercase tracking-wider">
+                        <label htmlFor="message" className="text-xs font-extrabold text-slate-500 uppercase tracking-wider">
                           Message Details
                         </label>
                         <textarea

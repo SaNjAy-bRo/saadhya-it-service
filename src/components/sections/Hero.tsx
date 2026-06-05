@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-6 sm:space-y-8 flex flex-col items-center">
         
         {/* Glowing Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/20 text-secondary border border-primary/30 text-xs sm:text-sm font-extrabold tracking-wide">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/20 text-secondary border border-primary/30 text-sm font-extrabold tracking-wide">
           <ShieldCheck className="w-4 h-4 text-secondary" />
           <span>Next-Gen Security & IT Solutions</span>
         </div>
@@ -55,15 +55,15 @@ export default function Hero() {
         <div className="pt-8 w-full border-t border-white/10 grid grid-cols-3 gap-6 max-w-xl mx-auto">
           <div>
             <span className="block font-display font-black text-2xl sm:text-3xl text-white">99.9%</span>
-            <span className="block text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mt-1">Uptime SLA</span>
+            <span className="block text-xs font-extrabold text-slate-400 uppercase tracking-widest mt-1">Uptime SLA</span>
           </div>
           <div>
             <span className="block font-display font-black text-2xl sm:text-3xl text-white">24/7</span>
-            <span className="block text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mt-1">Support</span>
+            <span className="block text-xs font-extrabold text-slate-400 uppercase tracking-widest mt-1">Support</span>
           </div>
           <div>
             <span className="block font-display font-black text-2xl sm:text-3xl text-white">100%</span>
-            <span className="block text-[10px] font-extrabold text-slate-400 uppercase tracking-widest mt-1">Protection</span>
+            <span className="block text-xs font-extrabold text-slate-400 uppercase tracking-widest mt-1">Protection</span>
           </div>
         </div>
 

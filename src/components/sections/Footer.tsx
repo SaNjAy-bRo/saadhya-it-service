@@ -18,7 +18,7 @@ export default function Footer() {
             <h4 className="font-display font-extrabold text-sm tracking-widest text-slate-800 uppercase">
               Our Mission
             </h4>
-            <p className="text-xs sm:text-sm text-slate-500 leading-relaxed font-medium">
+            <p className="text-sm text-slate-500 leading-relaxed font-medium">
               Saadya IT Services is a start up in the industry. But our team is
               filled with variety of professionals who have many years of
               experience in different fields of IT industry. This is started
@@ -42,7 +42,7 @@ export default function Footer() {
               <span className="block text-xs text-slate-400">Please write to us at:</span>
               <a
                 href="mailto:contact@saadyait.com"
-                className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-slate-800 hover:text-primary transition-colors"
+                className="inline-flex items-center gap-1.5 text-sm font-bold text-slate-800 hover:text-primary transition-colors"
               >
                 <Mail className="w-4 h-4 text-primary" />
                 <span>contact@saadyait.com</span>
@@ -75,7 +75,7 @@ export default function Footer() {
             <h4 className="font-display font-extrabold text-sm tracking-widest text-slate-800 uppercase">
               Quick Links
             </h4>
-            <ul className="space-y-2 text-xs sm:text-sm font-semibold">
+            <ul className="space-y-2 text-sm font-semibold">
               <li>
                 <a href="#services" className="hover:text-primary transition-colors">
                   Software Outsourcing

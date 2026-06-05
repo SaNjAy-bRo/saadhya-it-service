@@ -78,7 +78,7 @@ export default function ProfessionalServices() {
                     {service.title}
                   </h3>
 
-                  <p className="font-sans text-xs sm:text-sm text-slate-800 leading-relaxed font-semibold">
+                  <p className="font-sans text-sm text-slate-800 leading-relaxed font-semibold">
                     {service.description}
                   </p>
                 </div>

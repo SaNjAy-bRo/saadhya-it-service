@@ -62,7 +62,7 @@ export default function EnterpriseSolutions() {
             <h1 className="font-display font-black text-3xl sm:text-5xl text-white">
               Enterprise Solutions
             </h1>
-            <p className="font-sans text-slate-300 text-xs sm:text-sm max-w-lg mx-auto font-semibold">
+            <p className="font-sans text-slate-300 text-sm sm:text-base max-w-lg mx-auto font-semibold">
               Powering modern business workflow delivery through component integration and secure scalability.
             </p>
           </div>
@@ -83,7 +83,7 @@ export default function EnterpriseSolutions() {
                 </p>
                 
                 <div className="pt-2">
-                  <span className="inline-flex items-center gap-2 text-xs sm:text-sm font-extrabold text-primary">
+                  <span className="inline-flex items-center gap-2 text-sm font-extrabold text-primary">
                     <span>Connect with us for more details</span>
                     <ArrowRight className="w-4 h-4 animate-bounce" />
                   </span>
@@ -114,7 +114,7 @@ export default function EnterpriseSolutions() {
               <h2 className="font-display font-black text-2xl sm:text-3xl text-slate-950">
                 Architecture Abstractions
               </h2>
-              <p className="font-sans text-xs sm:text-sm text-slate-800 font-semibold max-w-lg mx-auto">
+              <p className="font-sans text-sm sm:text-base text-slate-800 font-semibold max-w-lg mx-auto">
                 Engineering component structures designed for continuous delivery, failover protection, and secure data pipelines.
               </p>
             </div>
@@ -134,7 +134,7 @@ export default function EnterpriseSolutions() {
                       <h3 className="font-display font-extrabold text-base sm:text-lg text-slate-950">
                         {item.title}
                       </h3>
-                      <p className="font-sans text-xs sm:text-sm text-slate-800 leading-relaxed font-semibold">
+                      <p className="font-sans text-sm text-slate-800 leading-relaxed font-semibold">
                         {item.desc}
                       </p>
                     </div>
@@ -152,7 +152,7 @@ export default function EnterpriseSolutions() {
               <h2 className="font-display font-black text-2xl sm:text-3xl text-slate-950">
                 Systems Delivery Roadmap
               </h2>
-              <p className="font-sans text-xs sm:text-sm text-slate-800 font-semibold max-w-lg mx-auto">
+              <p className="font-sans text-sm sm:text-base text-slate-800 font-semibold max-w-lg mx-auto">
                 Our step-by-step systems implementation timeline ensures seamless component onboarding.
               </p>
             </div>
@@ -169,7 +169,7 @@ export default function EnterpriseSolutions() {
                   <h3 className="font-display font-extrabold text-base text-slate-950 mt-2">
                     {item.title}
                   </h3>
-                  <p className="font-sans text-xs sm:text-sm text-slate-700 leading-relaxed mt-2 font-semibold">
+                  <p className="font-sans text-sm text-slate-700 leading-relaxed mt-2 font-semibold">
                     {item.desc}
                   </p>
                 </div>
@@ -192,7 +192,7 @@ export default function EnterpriseSolutions() {
             <h2 className="font-display font-black text-2xl sm:text-3xl text-white">
               Integrate your business software components now
             </h2>
-            <p className="font-sans text-slate-300 text-xs sm:text-sm font-semibold max-w-md mx-auto">
+            <p className="font-sans text-slate-300 text-sm sm:text-base font-semibold max-w-md mx-auto">
               Ready to construct high-speed API connections or zero-trust databases? Consult our solution architects.
             </p>
             <div className="pt-2">

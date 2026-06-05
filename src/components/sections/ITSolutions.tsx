@@ -38,7 +38,7 @@ export default function ITSolutions() {
                   <span className="block font-display font-extrabold text-base sm:text-lg text-slate-950 leading-none">
                     150+
                   </span>
-                  <span className="block text-slate-500 text-[10px] font-extrabold mt-0.5 uppercase tracking-wider">
+                  <span className="block text-slate-500 text-xs font-extrabold mt-0.5 uppercase tracking-wider">
                     Completed Projects
                   </span>
                 </div>
@@ -47,7 +47,7 @@ export default function ITSolutions() {
               {/* Floating Card 2: Quality Certified */}
               <div className="absolute -top-4 -right-4 bg-white py-2 px-4 rounded-full shadow-lg border border-slate-200 flex items-center gap-2 z-20 animate-float [animation-delay:3s]">
                 <Award className="w-4 h-4 text-secondary" />
-                <span className="text-[10px] font-extrabold text-slate-800 uppercase tracking-wider">
+                <span className="text-xs font-extrabold text-slate-800 uppercase tracking-wider">
                   ISO 27001 Certified
                 </span>
               </div>
@@ -98,7 +98,7 @@ export default function ITSolutions() {
             <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start">
               <a
                 href="#services"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-dark text-white text-xs sm:text-sm font-extrabold transition-all shadow-md"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-dark text-white text-sm font-extrabold transition-all shadow-md"
               >
                 <span>See All Solutions</span>
                 <ArrowRight className="w-4 h-4" />

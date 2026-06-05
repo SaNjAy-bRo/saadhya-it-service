@@ -295,7 +295,7 @@ export default function AboutPage() {
                   }`}>
                     {item.title}
                   </span>
-                  <span className="block text-[9px] sm:text-[10px] text-slate-500 font-bold mt-1 uppercase tracking-wider">
+                  <span className="block text-[9px] sm:text-xs text-slate-500 font-bold mt-1 uppercase tracking-wider">
                     Pillar {idx + 1}
                   </span>
                 </button>

@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1E56FC;
+  --color-primary-dark: #1544D0;
+  --color-secondary: #00D2FF;
+  --color-dark-navy: #0A0F1D;
+  --color-light-blue: #F0F4FF;
+  --color-accent-blue: #EBF0FF;
+  --color-muted-slate: #64748B;
+  
+  --font-sans: var(--font-inter), sans-serif;
+  --font-display: var(--font-outfit), sans-serif;
+  
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-fade-in-up: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0A0F1D;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Custom Glassmorphism Card Style */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(30, 86, 252, 0.08);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.04);
+}
+
+.glass-panel-dark {
+  background: rgba(10, 15, 29, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #1E56FC 0%, #00D2FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-grid-pattern {
+  background-size: 30px 30px;
+  background-image: 
+    linear-gradient(to right, rgba(30, 86, 252, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 86, 252, 0.04) 1px, transparent 1px);
+}

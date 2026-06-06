@@ -1,5 +1,5 @@
 import React from "react";
-import { CheckCircle2, Layers, Cpu, Sliders, BrainCircuit } from "lucide-react";
+import { CheckCircle2, Layers, Cpu, BrainCircuit } from "lucide-react";
 
 export default function TrustBar() {
   const trustItems = [
@@ -89,15 +89,6 @@ export default function TrustBar() {
                     <p className="font-sans text-sm text-slate-800 leading-relaxed font-semibold">
                       {card.description}
                     </p>
-                  </div>
-
-                  <div className="pt-4 mt-5 border-t border-slate-200 flex items-center justify-between">
-                    <span className="text-xs font-extrabold tracking-wider text-primary group-hover:text-primary-dark uppercase transition-colors">
-                      Explore Details
-                    </span>
-                    <div className="w-7 h-7 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 border border-slate-200 group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-all">
-                      <Sliders className="w-3.5 h-3.5" />
-                    </div>
                   </div>
                 </div>
               );

@@ -1,5 +1,5 @@
 import React from "react";
-import { CheckCircle2, Layers, Cpu, Compass, Sliders } from "lucide-react";
+import { CheckCircle2, Layers, Cpu, Sliders, BrainCircuit } from "lucide-react";
 
 export default function TrustBar() {
   const trustItems = [
@@ -19,10 +19,10 @@ export default function TrustBar() {
       textCol: "text-blue-700",
     },
     {
-      title: "Business Solutions",
+      title: "AI & Smart Automation",
       description:
-        "Tailor-made software infrastructure engineered to accelerate organizational delivery, automate reports, and scale.",
-      icon: Compass,
+        "Deploy intelligent cognitive models, autonomous agents, and custom machine learning pipelines to optimize decision-making.",
+      icon: BrainCircuit,
       bgLight: "bg-cyan-100",
       textCol: "text-cyan-700",
     },

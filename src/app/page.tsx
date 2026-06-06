@@ -6,7 +6,10 @@ import ITSolutions from "@/components/sections/ITSolutions";
 import ProfessionalServices from "@/components/sections/ProfessionalServices";
 import KeyBenefits from "@/components/sections/KeyBenefits";
 import SmartSolutions from "@/components/sections/SmartSolutions";
+import AICapabilities from "@/components/sections/AICapabilities";
+import AIWorkflow from "@/components/sections/AIWorkflow";
 import HappyCustomers from "@/components/sections/HappyCustomers";
+import AICTA from "@/components/sections/AICTA";
 import CTASection from "@/components/sections/CTASection";
 import Footer from "@/components/sections/Footer";
 import CookieConsent from "@/components/ui/CookieConsent";
@@ -37,8 +40,17 @@ export default function Home() {
         {/* Grid representing Innovating Smart Solutions */}
         <SmartSolutions />
 
+        {/* AI Capabilities Showcase */}
+        <AICapabilities />
+
+        {/* AI Transformation Step-by-Step Workflow */}
+        <AIWorkflow />
+
         {/* Global Clients & Testimonials Carousel */}
         <HappyCustomers />
+
+        {/* AI Bottom Call To Action Banner */}
+        <AICTA />
 
         {/* Contact Form & Collaboration CTA */}
         <CTASection />

@@ -34,14 +34,14 @@ export default function Home() {
         {/* Core Professional Services Grid */}
         <ProfessionalServices />
 
+        {/* AI Capabilities Showcase */}
+        <AICapabilities />
+
         {/* Advantages & Team Collage Block */}
         <KeyBenefits />
 
         {/* Grid representing Innovating Smart Solutions */}
         <SmartSolutions />
-
-        {/* AI Capabilities Showcase */}
-        <AICapabilities />
 
         {/* AI Transformation Step-by-Step Workflow */}
         <AIWorkflow />
